@@ -56,18 +56,18 @@ UX designs for *human intuition*: embodied, visual, click-driven, forgiving beca
 
 AX designs for *the model's training distribution under attention scarcity*. A Unix subcommand looks usable to a model because the model has seen `git`, `kubectl`, `aws`, and a billion `man` pages. **Familiarity to the model is the affordance system.** That sentence carries most of the discipline.
 
-| Dimension         | UX (human)                             | AX (agent)                                                     |
-| ----------------- | -------------------------------------- | -------------------------------------------------------------- |
-| Sensory modality  | Visual + tactile + embodied            | Token stream, read once per turn                               |
-| Affordance        | What looks pressable                   | What looks like the model's training corpus                    |
-| Memory            | Working memory + the screen            | Whatever is in context this turn                               |
-| Failure mode      | Confusion, abandonment, support ticket | Silent retry, escape, $40 of wasted tokens                     |
-| Attention budget  | Hours of session time                  | Context window, ~80% before degradation                        |
-| Recovery          | Undo, back button, ask a coworker      | Read your own error message, or stop                           |
-| Unit of analysis  | The click, the screen, the flow        | The turn, the verb, the response                               |
-| What "feels good" | Low cognitive friction, fast feedback  | Low token friction, deterministic shape, cacheable prefixes    |
-| Documentation     | Onboarding, tooltips, support docs     | `--help`, error text, tool description. There is nothing else. |
-| Worst sin         | Hidden state the user has to discover  | Hidden state the model cannot discover                         |
+| Dimension              | UX (human) 👤                          | AX (agent) 🤖                                                  |
+| ---------------------- | -------------------------------------- | -------------------------------------------------------------- |
+| Sensory modality 👂    | Visual + tactile + embodied            | Token stream, read once per turn                               |
+| Affordance 👆          | What looks pressable                   | What looks like the model's training corpus                    |
+| Memory 🧠              | Working memory + the screen            | Whatever is in context this turn                               |
+| Failure mode ⚠️         | Confusion, abandonment, support ticket | Silent retry, escape, $40 of wasted tokens                     |
+| Attention budget ⏱️     | Hours of session time                  | Context window, ~80% before degradation                        |
+| Recovery ↩️             | Undo, back button, ask a coworker      | Read your own error message, or stop                           |
+| Unit of analysis 🖱️     | The click, the screen, the flow        | The turn, the verb, the response                               |
+| What "feels good" 🙂   | Low cognitive friction, fast feedback  | Low token friction, deterministic shape, cacheable prefixes    |
+| Documentation 📖       | Onboarding, tooltips, support docs     | `--help`, error text, tool description. There is nothing else. |
+| Worst sin 🔒           | Hidden state the user has to discover  | Hidden state the model cannot discover                         |
 
 ---
 
