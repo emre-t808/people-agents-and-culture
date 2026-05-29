@@ -1,3 +1,5 @@
+![People, Agents and Culture](assets/header.png)
+
 # People, Agents and Culture
 
 A small collection of writing about working with agents — how to design for them, how to hire for them, how the culture of building software shifts when the user reading your interface isn't human.

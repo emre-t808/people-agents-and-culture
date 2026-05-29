@@ -1,3 +1,5 @@
+![AX — A design discipline for the user who reads.](assets/header.png)
+
 # AX Designer
 
 *A draft job description.*
